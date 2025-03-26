@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>todolist 만들기</title>
+    <script defer src="./todo.js"></script>
+    <link rel="stylesheet" href="./todo.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>todolist</h1>
+      <div class="new_todo_container">
+        <input
+          type="text"
+          id="new_todo_input"
+          placeholder="오늘의 투두를 추가하세요"
+        />
+        <button onclick="addTodo()">추가</button>
+      </div>
+
+      <div class="todo_list"></div>
+    </div>
+  </body>
+</html>
